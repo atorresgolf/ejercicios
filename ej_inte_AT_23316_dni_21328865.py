@@ -79,7 +79,7 @@ cadena = input("Ingrese una cadena de caracteres:")
 #print(type(cadena))
 dic_con_frecuencia(cadena)
 diccionario = dic_con_frecuencia(cadena)
-print(diccionario)
+#print(diccionario)
 def palabra_mas_repetida(diccionario):
     palabra_max = max(diccionario, key=diccionario.get)
     return (palabra_max, diccionario[palabra_max])
